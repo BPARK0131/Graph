@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # CSV 파일 읽기
-file_path = '/workspaces/Graph/dummy_data_241018.csv'
+file_path = 'dummy_data_241018.csv'
 try:
     df = pd.read_csv(file_path, on_bad_lines='skip')
 except pd.errors.ParserError:
